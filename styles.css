@@ -338,6 +338,10 @@ a:focus {
     margin: auto;
     gap: 16px;
   }
+
+  [href="#top"] {
+    margin-left: 212px;
+  }
 }
 
 /*------------------------------1300px Breakpoint-------------------*/
@@ -371,6 +375,10 @@ a:focus {
     align-self: flex-end;
     margin-left: auto;
     margin-right: 0;
+  }
+
+  [href="#top"] {
+    margin-left: 46px;
   }
 
   /*-----------testing------------*/
