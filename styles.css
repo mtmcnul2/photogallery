@@ -133,7 +133,7 @@ p {
 main h2 {
   text-align: center;
   text-transform: uppercase;
-  padding: 15px 15px;
+  padding: 9px 15px;
 }
 
 figcaption,
@@ -251,7 +251,8 @@ footer {
 }
 
 label {
-  margin-left: 15px;
+  margin-left: 10px;
+  margin-top: 20px;
   text-transform: uppercase;
 }
 
@@ -262,13 +263,9 @@ label {
   margin: auto;
 }
 
-label {
-  margin-top: 20px;
-}
-
 .form input {
   height: 40px;
-  padding: 10px 10px;
+  padding: 10px 5px;
   margin-bottom: 0px;
 }
 
