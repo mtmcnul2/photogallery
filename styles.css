@@ -204,7 +204,7 @@ figure:nth-child(1) figcaption,
 figure:nth-child(3) figcaption,
 figure:nth-child(7) figcaption {
   position: absolute;
-  bottom: 10px;
+  top: 195px;
   text-align: center;
   text-transform: uppercase;
   color: white;
