@@ -237,7 +237,7 @@ figcaption {
   font-weight: bold;
 }
 
-.contact,
+#contact,
 footer {
   color: white;
   width: 75%;
@@ -245,12 +245,12 @@ footer {
   text-align: center;
 }
 
-.contact p:first-of-type {
+#contact p:first-of-type {
   line-height: 1.5;
   margin-bottom: 10px;
 }
 
-.contact p:nth-of-type(2) {
+#contact p:nth-of-type(2) {
   display: none;
 }
 
