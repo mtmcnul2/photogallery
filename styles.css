@@ -260,6 +260,7 @@ label {
 
 textarea {
   font-family: Arial, Helvetica, sans-serif;
+  resize: none;
 }
 
 .form {
@@ -294,7 +295,7 @@ label {
   font-weight: bold;
   border-radius: 14px;
   border: none;
-  width: 200px;
+  width: 60%;
   text-align: center;
   margin: 20px auto 0 auto;
 }
@@ -311,3 +312,77 @@ footer {
 }
 
 /*------------------------------880px Breakpoint-------------------*/
+@media screen and (min-width: 880px) {
+  body {
+    width: 880px;
+  }
+
+  h1 {
+    width: 704px;
+    text-align: left;
+  }
+
+  .gallery-grid {
+    width: 98%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin: auto;
+    gap: 16px;
+  }
+}
+
+/*------------------------------1300px Breakpoint-------------------*/
+
+@media screen and (min-width: 1300px) {
+  body {
+    width: 1300px;
+  }
+
+  h1 {
+    width: 1040px;
+    text-align: left;
+  }
+  .gallery-grid {
+    width: 98%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    margin: auto;
+    gap: 16px;
+  }
+
+  .page-nav {
+    display: flex;
+  }
+
+  nav li {
+  }
+
+  nav ul {
+    align-self: flex-end;
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  /*-----------testing------------*/
+  /* .page-nav ul {
+  display: inline-flex;
+}
+
+nav a {
+  font-size: 1.5em;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+nav ul {
+  margin: 29px auto 29px 25px;
+  margin-left: auto;
+  border: 2px solid red;
+}
+nav li {
+  margin: 0 5px;
+  display: inline-block;
+} */
+}
