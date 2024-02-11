@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is a collection of my many photos collected during my career as a photographer"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <title>TK Photography</title>
+  </head>
+  <body>
+    <div class="nav-container">
+      <header>
+        <h1>TK Photography</h1>
+        <nav class="page-nav">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#top">top</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <main>
+      <section class="about">
+        <h2>About</h2>
+        <p>Hello!</p>
+        <p>
+          I’m TK and I’m a photographer. I love looking at life through the lens
+          of my camera. Landscape photography is my speciality and it’s taken me
+          all over the world.
+        </p>
+      </section>
+      <section class="gallery">
+        <h2>Gallery</h2>
+        <p>
+          Here are some highlights of my work. The locations and year are in the
+          caption.
+        </p>
+        <section class="gallery-grid">
+          <figure>
+            <!-- <figure> -->
+            <img src="images/Chile.png" alt="Chilean beach with rocky cliffs" />
+            <figcaption>Chile, 2001</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="images/Guatemala.png"
+              alt="Guatemalan lake with purple flowers in foreground and mountains in the background"
+            />
+            <figcaption>Guatemala, 1997</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="images/Hawaii.png"
+              alt="lush green Hawaiian mountains surrounded by water"
+            />
+            <figcaption>Hawaii, 2010</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="images/Iran.png"
+              alt="Iranian scene of various plants with red flowers growing in white sand with mountains in the distance"
+            />
+            <figcaption>Iran, 1999</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="images/Ireland.png"
+              alt="lush green rolling Irish hillsides with a lake off in the distance"
+            />
+            <figcaption>Ireland, 2012</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="images/Italy.png"
+              alt="blue-green Italian lake with a small boat in the forground and a big rounded mountain in the background"
+            />
+            <figcaption>Italy, 2015</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="images/Moab-Desert.png"
+              alt="Moab desert scene of a sunset seen through a rock formation with cliffs and a valley in between"
+            />
+            <figcaption>Moab Desert, 2020</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="images/Rocky-Mountains.png"
+              alt="tall thin brown rock formations where the rocky mountains meet the Pacific Ocean"
+            />
+            <figcaption>Rocky Mountains, 2009</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="images/Switzerland.png"
+              alt="snowy Swiss mountain scene high in the Alps with clouds between the peaks"
+            />
+            <figcaption>Switzerland, 2014</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="images/UK.png"
+              alt="a valley in the UK with rolling brown and green hills"
+            />
+            <figcaption>UK, 2005</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="images/USA.png"
+              alt="a USA forest viewed from a distance with mountains in the very far distance"
+            />
+            <figcaption>USA, 2021</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="images/Wyoming.png"
+              alt="a small stream in the foreground reflecting mountains fromteh background with a small forest in betweem"
+            />
+            <figcaption>Wyoming, 2021</figcaption>
+          </figure>
+        </section>
+      </section>
+      <section class="contact">
+        <h2>Contact</h2>
+        <p>Please fill out this form and I’ll connect with you soon.</p>
+        <p>Your contact information</p>
+        <form class="form" action="#" method="post">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Your full name"
+            required
+          />
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email address"
+            required
+          />
+          <label for="message">Message</label>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="What can we help you with?"
+          ></textarea>
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <small>Copyright 2021 TK Photography</small>
+    </footer>
+  </body>
+</html>
