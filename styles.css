@@ -119,16 +119,16 @@ p {
   font-size: 1.25em;
 }
 
-.about,
-.gallery {
+#about,
+#gallery {
   background-color: white;
   width: 80%;
   margin: 0 auto;
   padding-bottom: 16px;
 }
 
-.about p,
-.gallery p {
+#about p,
+#gallery p {
   padding: 7px;
   line-height: 1.5;
 }
